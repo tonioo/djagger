@@ -5,7 +5,7 @@ For official specs, see https://swagger.io/specification/
 """
 
 from pydantic import BaseModel, Field, ValidationError
-from pydantic.main import ModelMetaclass
+from pydantic._internal._model_construction import ModelMetaclass
 from rest_framework import serializers
 from typing import Optional, List, Dict, Union, Type, Any, cast
 from .serializers import SerializerConverter

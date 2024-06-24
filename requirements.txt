@@ -3,7 +3,7 @@
 
 Django>=3.2.12
 djangorestframework>=3.11.0
-pydantic>=1.8
+pydantic>=2
 typing_extensions==4.0.0
 pytest>=6.2.0
 coverage==6.2
