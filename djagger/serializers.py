@@ -1,6 +1,6 @@
 from rest_framework import fields, serializers
 from typing import List, Dict, Optional, Union, Tuple, Type, Any
-from pydantic.main import ModelMetaclass
+from pydantic._internal._model_construction import ModelMetaclass
 from pydantic import BaseModel, create_model
 from decimal import Decimal
 from enum import Enum

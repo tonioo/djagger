@@ -10,7 +10,7 @@ from django.urls.resolvers import RegexPattern, RoutePattern, _route_to_regex
 from rest_framework import fields, serializers
 from typing import List, Type, Callable, Any
 from pydantic import create_model
-from pydantic.main import ModelMetaclass, ModelField
+from pydantic._internal._model_construction import ModelMetaclass, ModelField
 from pydantic.fields import UndefinedType
 from pydantic.schema import get_flat_models_from_model, get_model_name_map, field_schema
 from typing import List, Dict, Optional, Union, Tuple
